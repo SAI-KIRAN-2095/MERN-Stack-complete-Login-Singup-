@@ -1,0 +1,89 @@
+
+*,
+/* ::before,
+::after{
+  padding: 0;
+  margin: 0;
+} */
+
+label{
+  font-size: 20px;
+}
+
+/* html,
+body{
+  height: 100%;
+  width: 100%;
+} */
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.hindustantimes.com/auto/img/2025/02/25/600x338/Mercedes_F1_W16_1740492887427_1740492887753.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.containers {
+  background-color: rgba(28, 27, 27, 0.536);
+  background-size: cover;       /* 🔥 makes image fill div */
+  background-position: center;  /* keeps center visible */
+  background-repeat: no-repeat; /* prevents repeating */
+  padding: 32px 48px;
+  color: beige;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 100px;
+  max-width: 400px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.containers > h1{
+  margin-bottom: 20px;
+}
+
+.containers > form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.containers div{
+  display: flex;
+  flex-direction: column;
+}
+
+.containers input{
+  background-color: rgba(255, 255, 255, 0.229);
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border: 1px solid black;
+}
+
+.containers input::placeholder{
+  font-size: 12px;
+  font-style: italic;
+  color: black;
+}
+
+
+button {
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button{
+  background-color:white;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  color:black;
+}
+
+button:hover {
+  background-color:black;
+  color: white;
+}

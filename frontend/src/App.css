@@ -1,0 +1,47 @@
+
+ .homepage {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.wellcome{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    margin-left: 80px;
+    font-size: 40px;
+}
+a {
+  text-decoration: none;
+  color: silver;
+}
+html, .homepage {
+  width: 100%;
+  width: 1536px;
+  min-height: 100vh; /* Full screen height */
+  color: rgb(6, 2, 2);
+}
+.homepage{
+    background-image: url("C:\Users\Sathy\Documents\Signup_page\frontend\public\140-yearst.avif");
+    
+}
+.navbar {
+    background-color: black;
+    color: white;
+    font-family:initial;
+    font-size: smaller;
+}
+.navbar a {
+  color: white !important;
+}
+.navbar_body {
+    background-image: url("https://images.ctfassets.net/1fvlg6xqnm65/3TUeEklwwkEwKhDDJqPEua/9eca8c3236a6a9ab33ba9152ba826d47/CAR-PAGE-HEADER.jpg?w=1024");
+    background-size: cover;        /* 🔥 Makes image fill screen */
+    background-position: center;   /* Centers image */
+    background-repeat: no-repeat;  /* No repeating */
+    width: 100%;       
+    min-height: 100vh;  /* Full screen height */
+}
+.middle_body{
+    background-color: white;
+}
