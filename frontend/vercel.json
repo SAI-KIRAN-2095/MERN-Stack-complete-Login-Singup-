@@ -1,0 +1,8 @@
+{
+    "rewrites":[
+        {
+            "sorce":"/(.*)",
+            "description":"/index.html"
+        }
+    ]
+}
