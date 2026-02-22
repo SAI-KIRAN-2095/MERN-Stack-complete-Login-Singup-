@@ -22,7 +22,7 @@ html, .homepage {
   color: rgb(6, 2, 2);
 }
 .homepage{
-    background-image: url("C:\Users\Sathy\Documents\Signup_page\frontend\public\140-yearst.avif");
+    background-image: url("/public/140-yearst.avif");
     
 }
 .navbar {
