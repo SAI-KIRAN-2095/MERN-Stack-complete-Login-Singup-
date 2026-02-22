@@ -22,7 +22,7 @@ function Pageout() {
     
         const fetchProducts = async () => {
             try {
-                const url = "";
+                const url = "https://mern-stack-complete-login-singup-oz.vercel.app/products";
                 const headers = {
                     headers: {
                         'Authorization': localStorage.getItem('token')
